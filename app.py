@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 # Load saved models
-simple_model = joblib.load("simple_regression.pkl")
-multiple_model = joblib.load("multiple_regression.pkl")
+simple_model = joblib.load("simple_regression_model.pkl")
+multiple_model = joblib.load("multiple_regression_model.pkl")
 
 st.title("Advertising Budget vs Sales Prediction")
 
